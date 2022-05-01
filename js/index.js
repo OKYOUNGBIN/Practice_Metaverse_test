@@ -1,5 +1,6 @@
 import * as THREE from "/three/build/three.module.js";
 import { OrbitControls } from "/three/examples/jsm/controls/OrbitControls.js";
+import { GLTFLoader } from "../node_modules/three/examples/jsm/loaders/GLTFLoader.js";
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(
